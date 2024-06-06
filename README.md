@@ -3,9 +3,9 @@
 
 📁 The folders are separated for your convenience. If you want to send the archived tdata file via SFTP/FTP server, please go to the FTP folder and fill in the sending details. If you prefer to receive data via telegram, go to the Telegram folder and enter the appropriate data. And if you prefer to export data to a flash drive, go to the "Flash" folder.
 
-## 🛡️ IMPORTANT: THIS SCRIPT IS FOR EDUCATIONAL AND SECURITY TESTING PURPOSES ONLY!
-## ⚠️ BEFORE USING THE SCRIPT, PLEASE NOTE THAT I, AS THE AUTHOR, ARE NOT RESPONSIBLE FOR YOUR ACTIONS. YOU USE IT AT YOUR OWN RISK!
-## 🚫 REMEMBER THAT OBTAINING ACCESS TO A USER'S SESSION IS ILLEGAL AND PURPOSED BY LAW!
+### 🛡️ IMPORTANT: THIS SCRIPT IS FOR EDUCATIONAL AND SECURITY TESTING PURPOSES ONLY!
+### ⚠️ BEFORE USING THE SCRIPT, PLEASE NOTE THAT I, AS THE AUTHOR, ARE NOT RESPONSIBLE FOR YOUR ACTIONS. YOU USE IT AT YOUR OWN RISK!
+### 🚫 REMEMBER THAT OBTAINING ACCESS TO A USER'S SESSION IS ILLEGAL AND PURPOSED BY LAW!
 
 # Run the following command on the command line to install the library for Python, if you are going to send via FTP/SFTP server:
     pip install os platform pysftp ZipFile
