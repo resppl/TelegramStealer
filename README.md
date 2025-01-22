@@ -9,8 +9,6 @@
 
 🚫 REMEMBER THAT OBTAINING ACCESS TO A USER'S SESSION IS ILLEGAL AND PURPOSED BY LAW!
 
-For donations, use the TON and USDT wallets: UQDoNlO2MH4mWoshGp1Sc0dm4QbjKaHdkqPv_Q_FVgl_IEOZ.
-
 # Run the following command on the command line to install the library for Python, if you are going to send via FTP/SFTP server:
     pip install os platform pysftp ZipFile
 
@@ -57,8 +55,6 @@ For donations, use the TON and USDT wallets: UQDoNlO2MH4mWoshGp1Sc0dm4QbjKaHdkqP
 ⚠️ ПЕРЕД ИСПОЛЬЗОВАНИЕ СКРИПТА ОБРАТИТЕ ВНИМАНИЕ, ЧТО Я КАК АВТОР НЕ НЕСУ ОТВЕТСТВЕННОСТЬ ЗА ВАШИ ДЕЙСТВИЯ. ВЫ ИСПОЛЬЗУЕТЕ ЕГО НА СВОЙ СТРАХ И РИСК!
 
 🚫 ПОМНИТЕ, ЧТО ПОЛУЧЕНИЕ ДОСТУПА К СЕССИИ ПОЛЬЗОВАТЕЛЯ ЯВЛЯЕТСЯ НЕЗАКОННЫМ И ПРЕСЛЕДУЕТСЯ ЗАКОНОМ!
-
-Для пожертвований используйте кошельки TON и USDT: UQDoNlO2MH4mWoshGp1Sc0dm4QbjKaHdkqPv_Q_FVgl_IEOZ.
 
 # Выполните следующую команду в командной строке для установки библиотеки для Python, если вы собираетесь отправлять через FTP/SFTP сервер:
     pip install os platform pysftp ZipFile
